@@ -12,3 +12,4 @@ C:\Aulas\dotnet-csharp\obj\Debug\net8.0\refint\dotnet-csharp.dll
 C:\Aulas\dotnet-csharp\obj\Debug\net8.0\dotnet-csharp.pdb
 C:\Aulas\dotnet-csharp\obj\Debug\net8.0\dotnet-csharp.genruntimeconfig.cache
 C:\Aulas\dotnet-csharp\obj\Debug\net8.0\ref\dotnet-csharp.dll
+C:\Aulas\dotnet-csharp\obj\Debug\net8.0\dotnet-csharp.sourcelink.json
