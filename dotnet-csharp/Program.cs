@@ -1,4 +1,5 @@
-﻿using dotnet_csharp.Common.Models;
+﻿using System.Diagnostics.Contracts;
+using dotnet_csharp.Common.Models;
 
 Pessoa pessoa1 = new Pessoa();
 
@@ -141,4 +142,55 @@ while (exibirMenu)
             Console.WriteLine("Opção inválida");
             break;
     }
+}
+
+// arrays
+
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+
+// alterando tamanho de um array
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+// copiando um array para outro
+int[] arrayInteirosDobrados = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrados, arrayInteiros.Length);
+
+Console.WriteLine("percorrendo o array com for");
+
+for(int i = 0; i < arrayInteiros.Length; i++)
+{
+    Console.WriteLine($"Posição número {i} - {arrayInteiros[i]}");
+}
+
+Console.WriteLine("percorrendo o array com foreach");
+
+int contadorForEach = 0;
+foreach(int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição número {contadorForEach} - {valor}");
+    contadorForEach++;
+}
+
+List<string> listaString = new List<string>();
+
+listaString.Add("RJ");
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+
+for(int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição número {contador} - {listaString[contador]}");
+}
+
+Console.WriteLine("usando foreach");
+int posicao = 0;
+foreach(string item in listaString)
+{
+    Console.WriteLine($"Posição número {posicao} - {item}");
+    posicao++;
 }
