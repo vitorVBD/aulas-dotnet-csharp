@@ -1,0 +1,12 @@
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\bin\Debug\net8.0\dotnet-csharp.Common.deps.json
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\bin\Debug\net8.0\dotnet-csharp.Common.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\bin\Debug\net8.0\dotnet-csharp.Common.pdb
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.AssemblyInfoInputs.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.AssemblyInfo.cs
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.csproj.CoreCompileInputs.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.sourcelink.json
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\refint\dotnet-csharp.Common.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\dotnet-csharp.Common.pdb
+C:\Aulas\dotnet-csharp\dotnet-csharp.Common\obj\Debug\net8.0\ref\dotnet-csharp.Common.dll
