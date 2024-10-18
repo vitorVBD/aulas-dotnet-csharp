@@ -1,0 +1,15 @@
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.AssemblyInfoInputs.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.AssemblyInfo.cs
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.csproj.CoreCompileInputs.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.sourcelink.json
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\bin\Debug\net8.0\dotnet-csharp-modulo-2.exe
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\bin\Debug\net8.0\dotnet-csharp-modulo-2.deps.json
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\bin\Debug\net8.0\dotnet-csharp-modulo-2.runtimeconfig.json
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\bin\Debug\net8.0\dotnet-csharp-modulo-2.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\bin\Debug\net8.0\dotnet-csharp-modulo-2.pdb
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\refint\dotnet-csharp-modulo-2.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.pdb
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.genruntimeconfig.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\ref\dotnet-csharp-modulo-2.dll
