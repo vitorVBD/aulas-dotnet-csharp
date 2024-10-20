@@ -13,3 +13,6 @@ C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\refint\dotnet-csh
 C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.pdb
 C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.genruntimeconfig.cache
 C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\ref\dotnet-csharp-modulo-2.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-csharp-modulo-2.csproj.AssemblyReference.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-2\obj\Debug\net8.0\dotnet-c.73F90367.Up2Date

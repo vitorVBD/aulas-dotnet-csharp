@@ -1,0 +1,14 @@
+[
+    {
+      "Id": 1,
+      "Nome_Produto": "Material",
+      "Preco": 300.00,
+      "DataVenda": "2024-10-20T13:52:39.2020276-03:00"
+    },
+    {
+      "Id": 2,
+      "Nome_Produto": "Licença",
+      "Preco": 1100.0,
+      "DataVenda": "2024-10-20T13:52:39.2020276-03:00"
+    }
+  ]

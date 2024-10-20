@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Globalization;
 using System.Net.Mail;
+using Newtonsoft.Json;
 
 Pessoa p1 = new Pessoa(nome: "Vitor", sobrenome: "Bittencourt");
 Pessoa p2 = new Pessoa(nome: "Leonardo", sobrenome: "Buta");
@@ -221,4 +222,81 @@ if (estados.ContainsKey(chave))
 else
 {
     Console.WriteLine($"Valor não existe, é seguro adicionar a chave: {chave}");
+}
+
+// tuplas
+
+Console.WriteLine("Declarando uma tupla para representar um ID, um nome, um sobrenome e uma altura");
+(int id, string nome, string sobrenome, decimal altura) tupla = (1, "Vitor", "Bittencourt", 1.78M);
+Console.WriteLine($"ID: {tupla.id}");
+Console.WriteLine($"Nome: {tupla.nome}");
+Console.WriteLine($"Sobrenome: {tupla.sobrenome}");
+Console.WriteLine($"Altura: {tupla.altura}");
+
+// outros exemplos de declaração de tuplas
+ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Vitor", "Bittencourt", 1.78M);
+var maisUmExemplo = Tuple.Create(1, "Vitor", "Bittencourt", 1.78M);
+
+// testando a tupla em um método
+
+LeituraArquivo arquivo = new LeituraArquivo();
+var (sucesso1, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso1)
+{
+    Console.WriteLine($"Quantidade de linhas do arquivo: {quantidadeLinhas}");
+    foreach(string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler o arquivo");
+}
+
+// usando o desconstrutor
+
+Console.WriteLine("Criando uma nova pessoa:");
+Pessoa p3 = new Pessoa("Vitor", "Bittencourt");
+
+Console.WriteLine("Usando o desconstrutor:");
+(string nome, string sobrenome) = p1;
+Console.WriteLine($"{nome} {sobrenome}");
+
+// if ternário
+
+int numero1 = 6;
+bool ehPar = false;
+
+ehPar = numero1 % 2 == 0;
+Console.WriteLine($"O número {numero1} é " + (ehPar ? "par" : "impar"));
+
+// serialização de objetos
+
+DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Console.WriteLine("Criando uma venda");
+Venda v1 = new Venda(1, "Material de escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Licença de Software", 110M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+// usando o pacote newtonsoft.json
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented); // serializando a lista de objetos em json
+File.WriteAllText("Arquivos/vendas.json", serializado); // criando um novo arquivo json com os objetos em serializado
+Console.WriteLine("Objeto v1 em formato JSON:");
+Console.WriteLine(serializado);
+
+// deserialização de objetos
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas2.json");
+List<Venda2> listaVenda2 = JsonConvert.DeserializeObject<List<Venda2>>(conteudoArquivo);
+
+foreach (Venda2 venda in listaVenda2)
+{
+    Console.WriteLine($"ID: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
 }

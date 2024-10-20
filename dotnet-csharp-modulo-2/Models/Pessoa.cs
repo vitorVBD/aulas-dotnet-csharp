@@ -13,6 +13,13 @@ namespace dotnet_csharp_modulo_2.Models
             Sobrenome = sobrenome;
         }
 
+        //criando um desconstrutor
+        public void Deconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+
         private string _nome;
         public string Nome 
         { 
