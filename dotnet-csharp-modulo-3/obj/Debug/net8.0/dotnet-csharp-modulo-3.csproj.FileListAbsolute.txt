@@ -1,0 +1,15 @@
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\bin\Debug\net8.0\dotnet-csharp-modulo-3.exe
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\bin\Debug\net8.0\dotnet-csharp-modulo-3.deps.json
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\bin\Debug\net8.0\dotnet-csharp-modulo-3.runtimeconfig.json
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\bin\Debug\net8.0\dotnet-csharp-modulo-3.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\bin\Debug\net8.0\dotnet-csharp-modulo-3.pdb
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.AssemblyInfoInputs.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.AssemblyInfo.cs
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.csproj.CoreCompileInputs.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.sourcelink.json
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\refint\dotnet-csharp-modulo-3.dll
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.pdb
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\dotnet-csharp-modulo-3.genruntimeconfig.cache
+C:\Aulas\dotnet-csharp\dotnet-csharp-modulo-3\obj\Debug\net8.0\ref\dotnet-csharp-modulo-3.dll
